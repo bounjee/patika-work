@@ -5,9 +5,8 @@ myName.innerHTML = `${username} `
 // let myImg = document.querySelector("#resimg")   
 // myImg.src 
 
-const myImg = document.querySelector("#imgs")
+const myImg = document.querySelector("img")
 myImg.src ="res.jpg";
-myImg.style.margin = "0 auto";
 document.body.appendChild(myImg);
 
 
